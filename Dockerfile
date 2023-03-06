@@ -1,8 +1,8 @@
 FROM python:3
 
-RUN git clone 
+RUN git clone https://github.com/manolo2829/manudiiez-examen-hangman.git
 
-WORKDIR /REPO
+WORKDIR /manudiiez-examen-hangman
 
 RUN requirements.txt
 
