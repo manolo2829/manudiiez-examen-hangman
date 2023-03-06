@@ -1,0 +1,17 @@
+method-lines:
+    config:
+       threshold: 25
+argument-count:
+    config:
+       threshold: 3
+similar-code:
+    config:
+       threshold: 3
+exclude_patterns:
+  - "test"
+  - "test.py"
+  - "test_**"
+  - "test_*"
+  - "**/test/"
+  - "**/tests/"
+  - "Tests/"
